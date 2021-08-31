@@ -1,0 +1,3 @@
+mod domain;
+
+fn main() {}

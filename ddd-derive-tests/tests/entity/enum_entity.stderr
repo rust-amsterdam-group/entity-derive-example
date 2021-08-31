@@ -1,0 +1,13 @@
+error: Entity cannot be derived from Enum
+
+  = note: Entity may only be derived from a Struct with named fields
+  = help: Try changing the item to a Struct with named fields
+
+ --> $DIR/enum_entity.rs:4:1
+  |
+4 | / enum Status {
+5 | |     OPEN,
+6 | |     CLOSED,
+7 | |     PENDING,
+8 | | }
+  | |_^

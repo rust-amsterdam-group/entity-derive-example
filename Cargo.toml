@@ -1,0 +1,3 @@
+[workspace]
+
+members = ["ddd-without-macros", "ddd-with-macros", "ddd-derive", "ddd-derive-tests", "ddd-core"]

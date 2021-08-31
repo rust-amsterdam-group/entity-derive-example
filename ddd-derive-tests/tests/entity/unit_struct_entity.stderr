@@ -1,0 +1,9 @@
+error: Entity cannot be derived from Unit Struct
+
+  = note: Entity may only be derived from a Struct with named fields
+  = help: Try changing the item to a Struct with named fields
+
+ --> $DIR/unit_struct_entity.rs:4:1
+  |
+4 | struct Unit;
+  | ^^^^^^^^^^^^

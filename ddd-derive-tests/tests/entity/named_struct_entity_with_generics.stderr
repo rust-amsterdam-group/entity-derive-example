@@ -1,0 +1,12 @@
+error: Entity cannot be derived from Struct with Generic Type Parameters
+
+  = note: Entity may only be derived from a Struct with named fields
+  = help: Try changing the item to a Struct with named fields
+
+ --> $DIR/named_struct_entity_with_generics.rs:4:1
+  |
+4 | / struct Person<T> {
+5 | |     raw: T,
+6 | |     name: String,
+7 | | }
+  | |_^
